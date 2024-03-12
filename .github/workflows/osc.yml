@@ -27,7 +27,7 @@ jobs:
         include:
           - userName: rainleo
             repoName: TVBoxOSC
-            branchName: main
+            branchName: master
     steps:
       - name: Checkout
         uses: actions/checkout@v4
