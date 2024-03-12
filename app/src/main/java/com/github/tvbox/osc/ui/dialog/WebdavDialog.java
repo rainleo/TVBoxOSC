@@ -73,7 +73,7 @@ public class WebdavDialog extends BaseDialog {
                 }
                 if(url == null || url.length() == 0)
                 {
-                    Toast.makeText(WebdavDialog.this.getContext(), "请务必填入WebDav地址", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(WebdavDialog.this.getContext(), "请务必填入WebDav url", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 if(!url.endsWith("/"))
